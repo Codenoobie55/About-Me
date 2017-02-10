@@ -41,3 +41,18 @@ if(quizQuestion.toUpperCase() === 'Y') {
   console.log('yes, he has a Chocolate Lab!');
 } else if (quizQuestion.toUpperCase() === 'N') {
   console.log('No, his Elkhound died when he was a boy.');}
+
+//make a sixth question in the guessing game that takes a numeric input by prompting a user to guess a number.
+
+quizQuestion = prompt('How many fish did I catch yesterday ?');
+var howManyFish = 7;
+var userGuess = 4;
+if(userGuess > howManyFish) {
+  console.log('too high');
+  Alert('wrong! Try again');
+} else if(userGuess < howManyFish){
+  console.log('too low');
+  Alert('wrong! Try again');
+}else{
+  Alert('Great Job!');
+}

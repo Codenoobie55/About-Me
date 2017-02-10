@@ -1,6 +1,10 @@
 'use strict';
-var confirmquiz =(Do you like guessing games?);
 
+var name = "confrmQuiz"
+var confirmQuiz = prompt ('would you like to play?');
+if{
+  conf
+}
 
 //arrays are fundemantally sorted and ordered how the user/developer puts them in
 //fundemental feature of arrays and javascripts
@@ -17,3 +21,13 @@ console.log('index of loop:' +i);
   console.log('Name at index:' + names[index]);
   var currentName = names[index];
 }
+
+// February 10th notes-class
+var name = 'Adam';
+sumOfNumbers(3,7);
+
+function sumOfNumbers(n)
+var addTwoThings = function(numOne, numTwo){
+  return
+};
+addTwoThings(2,5);

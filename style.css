@@ -1,6 +1,14 @@
-h1{
+body {
+background-image: url('http://www.bigbubblediving.com/wp-content/uploads/2015/05/BigBubble-Diving-GiliTrawangan-Headerre-371x247.jpg');
+text-align: left;
+font-size: 14;
+font-style: oblique;
+font-family: fantasy;
+color: darkgreen;
+text-shadow: black;
+}
 
+h1 {
 text-align: center;
-font: Helvetica;
-font-color: purple;
+color: red;
 }

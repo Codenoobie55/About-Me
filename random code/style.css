@@ -1,0 +1,28 @@
+div {
+display: block;
+border: 2px solid black;
+height: 100px;
+width: 1000px;
+margin: 20px;
+
+}
+#box-1 {
+  background-color: green;
+  margin-left: auto;
+}
+#box-2{
+width: 1.0em;
+background-color: blue;
+
+}
+#box-3 {
+  background-color: red;
+  width: 2.0rem;
+  margin: auto;
+}
+#box-4 {
+  background-color: purple;
+
+columns:1,2,3{
+float: right;
+}
