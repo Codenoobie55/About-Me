@@ -43,29 +43,27 @@ function questionFour(){
     console.log('No, his yacht sank and he floated until the coast guard rescued him!');}
 }
 //fifth and final project question
-  function questionFive(){
-    quizQuestion = prompt('please answer with Y or N. Does James have a dog ?');
-    if(quizQuestion.toUpperCase() === 'Y') {
-      console.log('yes, he has a Chocolate Lab!');
-    } else if (quizQuestion.toUpperCase() === 'N') {
-      console.log('No, his Elkhound died when he was a boy.');}
+function questionFive(){
+  quizQuestion = prompt('please answer with Y or N. Does James have a dog ?');
+  if(quizQuestion.toUpperCase() === 'Y') {
+    console.log('yes, he has a Chocolate Lab!');
+  } else if (quizQuestion.toUpperCase() === 'N') {
+    console.log('No, his Elkhound died when he was a boy.');}
 }
 //make a sixth question in the guessing game that takes a numeric input by prompting a user to guess a number.
 function questionSix(){
-  quizQuestion = prompt('How many fish did I catch yesterday ?');
   var howManyFish = 7;
-  var userGuess = 4;
-  if(userGuess > howManyFish) {
-    console.log('too high');
-    alert('wrong! Try again');
-  } else if(userGuess < howManyFish){
-    console.log('too low');
-    alert('wrong! Try again');
-  }else{
-    alert('Great Job!');
+  for(var i = 0; i < 4; i++){
+    var quizQuestion = prompt('How many fish did I catch yesterday ?');
+    if(quizQuestion > howManyFish) {
+      alert('too high');
+    } else if(quizQuestion < howManyFish){
+      alert(' too low');
+    }else{
+      alert('Great Job!');
+    }
   }
 }
-
 questionOne();
 questionTwo();
 questionThree();
