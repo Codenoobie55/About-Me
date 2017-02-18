@@ -1,0 +1,44 @@
+.start div{
+color: blue;
+width: 200px
+height:200px;
+
+
+}
+.WOP{
+  display: inline-block;
+}
+
+
+
+p{
+  color: red;
+}
+
+.BAH{
+  float: right;
+}
+.NOP{
+  width:100%;
+}
+
+  h2{
+    position: inline-block;
+  }
+
+
+}
+h3{
+  font-family: times;
+  text-align: right;
+font-size: 10;
+}
+
+
+
+#logo{
+  background-repeat: no-repeat;
+  height: 100px;
+  font-size: 34;
+  text-align: left;
+}
