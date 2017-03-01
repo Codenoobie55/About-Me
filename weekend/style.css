@@ -1,12 +1,20 @@
+ ul{
+  background-color: red;
+  color: black;
+}
+li{
+  background-color: black;
+}
 body{
 
   width: 90%;
   margin: 0 auto;}
   #Content {overflow: auto;}
   #nav, #Feature, .article, #footer {
+
     margin-top:: 20px
   padding: 10px 0px 5px 0px;
-background-color: #efefef; }
+background-color: black; }
 
 .column3 {margin-right: 0%;}
 li {
@@ -16,16 +24,21 @@ li {
 }
 
 #nav, #footer {
-  background-color: #efefef;
+  background-color: black;
+  color: white;
+  display: inline;
   padding: 0.5em 0;}
   #Feature, .article {
   height: 100px;
+
+
 }
 
 *{
   font-family: Arial, Verdana, sans-serif;
   color: #665544;
   text-align: center;
+
 }
 h1{
 background-image: url('http://www.bigbubblediving.com/wp-content/uploads/2015/05/BigBubble-Diving-GiliTrawangan-Headerre-371x247.jpg');
@@ -44,10 +57,12 @@ img {
   border: 4px solid black;
   align-items: left;
 }
+
 #Feature {
   height: 800px;
 
 }
-#articleColumn1{
-  height: 880px;
+.articleColumn1{
+  height: 1200px;
+  background-color: #efefef;
 }

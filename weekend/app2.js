@@ -75,9 +75,29 @@ function questionSix(){
 // Question 7: Here we are required to have another guessing questions. This question has 3 requirements.
 // 1. Answer's must be stored in an array. 2. The user only has 6 tries. 3. The user gets a message if they guess correct of if they run out of tries.
 
+/*function questionSeven(){
+ var quizQuestion = prompt('what countries have i visited?');
+
+var countriesVisited = ['Thailand', 'Ireland', 'England', 'France'];
+for (var i = 0; i < countriesVisited.length; i++)
+console.log('answers:' + countriesVisited[i]);
+var userWins = false;
+var numberOfGuesses = 2;
+ for(var i = 0; i < 4; i++) {
+   prompt('what other country?');
+ if(quizQuestion > countriesVisited.length) {
+     console.log('right on!');
+   } else if(quizQuestion != countriesVisited){
+     alert(' wrong');
+   }else{
+     alert('Try again!');
+   }
+ }
   questionOne();
   questionTwo();
   questionThree();
   questionFour();
   questionFive();
   questionSix();
+  questionSeven();
+}
